@@ -56,8 +56,7 @@ public class DesafioCadastrocomSucesso {
 		Assert.assertEquals("Comida: Carne",driver.findElement(By.id("descComida")).getText());
 		Assert.assertEquals("Escolaridade: superior",driver.findElement(By.id("descEscolaridade")).getText());
 		Assert.assertEquals("Esportes: Futebol",driver.findElement(By.id("descEsportes")).getText());
-		Assert.assertEquals("Sugestoes: Teste Sugestões",driver.findElement(By.id("descSugestoes")).getText());
-		
+		Assert.assertEquals("Sugestoes: Teste Sugestões",driver.findElement(By.id("descSugestoes")).getText());	
 		
 		
 
